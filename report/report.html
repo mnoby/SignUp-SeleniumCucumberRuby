@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Sign Up Amazon</title>
+
+  <link rel="icon" href="https://reportbuilder.rajatthareja.com/rb.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection"/>
+  <link href="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/css/report.builder.min.css" rel="stylesheet">
+
+  
+</head>
+
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+<header class="brown lighten-5">
+  <div class="row brown lighten-1">
+    <div class="col m6 hide-on-small-only">
+      <h5 class="truncate white-text tooltipped" data-tooltip="Sign Up Amazon">Sign Up Amazon</h5>
+    </div>
+
+    <div class="col m6 s12 brown lighten-1">
+      <ul class="tabs brown lighten-1 row" style="overflow-x: hidden">
+        <li class="tab col s3">
+          <a class="brown lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
+        </li>
+        <li class="tab col s3">
+          <a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
+        </li>
+        <li class="tab col s3">
+          <a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
+        </li>
+        <li class="tab col s3">
+          <a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+    
+
+    
+    
+
+    
+    
+        
+        <div id="g0f0s0" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@SignUpAmazon</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@ValidDataSignUp</div>
+        
+    
+
+    <h5>User want to Sign Up to Amazon with Valid Data (9.892s)</h5>
+    features/SignUp.feature:15
+
+    
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> User open amazon.com (3.092s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> User Click Start Here (1.147s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> User input name &quot;Muhammad Noby&quot; (0.099s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> User input email &quot;muhammad.noby@gmail.com&quot; (0.120s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> User input password &quot;Automation2022&quot; and reEnter the password (0.171s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> User click Create Your Amazon Account (3.921s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@SignUpAmazon</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@InvalidDataSignUp</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@UsingRegisteredEmail</div>
+        
+    
+
+    <h5>User want to sign Up to Amazon Using an Email Addres that already Registered in Amazon.com (8.562s)</h5>
+    features/SignUp.feature:28
+
+    
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> User open amazon.com (2.689s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> User Click Start Here (1.300s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> User input name &quot;Muhammad Noby&quot; (0.102s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> User input email &quot;noby.sosmed@gmail.com&quot; (0.085s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> User input password &quot;Automation2022&quot; and reEnter the password (0.191s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> User click Create Your Amazon Account (2.932s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s2" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@SignUpAmazon</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@InvalidDataSignUp</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@UsingLessThan6CharPass</div>
+        
+    
+
+    <h5>User want to Sign Up to Amazon Using Password that the length less than 6 characters (8.099s)</h5>
+    features/SignUp.feature:41
+
+    
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> User open amazon.com (3.343s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> User Click Start Here (1.772s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> User input name &quot;Muhammad Noby&quot; (0.088s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> User input email &quot;muhammad.noby@gmail.com&quot; (0.107s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> User input password &quot;Auto&quot; and reEnter the password (0.143s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> User click Create Your Amazon Account (1.410s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        
+        $('#g0f0s0').modal();
+        
+        $('#g0f0s1').modal();
+        
+        $('#g0f0s2').modal();
+        
+        $('#g0f0s3').modal();
+        
+    });
+</script>
+
+
+    <main class="brown lighten-5">
+      <div class="row">
+
+        <div id="overview" class="col s12 brown lighten-5">
+          <div class="row">
+  <div class="col m4 s12">
+    <canvas id="featuresDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataFeatures" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <canvas id="scenariosDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataScenarios" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <table id="metaData" class="bordered">
+      <tbody>
+      <tr><th>Total Time</th><td>26.553s</td></tr>
+      
+          <tr>
+            <th>Project name</th>
+            <td>Sign Up Amazon</td>
+          </tr>
+      
+          <tr>
+            <th>Platform</th>
+            <td>Website</td>
+          </tr>
+      
+      </tbody>
+    </table>
+  </div>
+</div>
+
+        </div>
+
+        <div id="features" class="col s12 brown lighten-5 white-text">
+          <ul class="featureList collapsible popout" data-collapsible="expandable">
+  
+      
+      <li class="feature working">
+  <div class="collapsible-header brown lighten-1 waves-effect waves-light">
+    <i class="material-icons">featured_play_list</i>
+    <b>Feature</b>&nbsp;Sign Up to Amazon Website&nbsp;(26.553s)
+  </div>
+
+  <div class="collapsible-body brown lighten-4">
+    <div class="collection scenarioList brown">
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s0">
+          <b>Scenario Outline</b> User want to Sign Up to Amazon with Valid Data&nbsp;(9.892s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s1">
+          <b>Scenario Outline</b> User want to sign Up to Amazon Using an Email Addres that already Registered in Amazon.com&nbsp;(8.562s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s2">
+          <b>Scenario Outline</b> User want to Sign Up to Amazon Using Password that the length less than 6 characters&nbsp;(8.099s)
+        </a>
+      
+    </div>
+  </div>
+</li>
+
+  
+</ul>
+
+        </div>
+
+        <div id="summary" class="col s12 brown lighten-5">
+          <table id="summaryTable" class="bordered brown lighten-1 white-text" width="100%">
+  <thead>
+  <tr>
+    <th class="hide-on-small-only">Feature</th>
+    <th>Scenario</th>
+    <th class="hide">Tags</th>
+    <th>Status</th>
+
+
+    
+
+    <th class="hide-on-small-only">Error</th>
+  </tr>
+  </thead>
+  <tbody>
+  
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Sign Up to Amazon Website
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s0">
+  User want to Sign Up to Amazon with Valid Data
+</td>
+
+<td class="hide">
+  
+      
+          @SignUpAmazon. 
+      
+          @ValidDataSignUp. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Sign Up to Amazon Website
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s1">
+  User want to sign Up to Amazon Using an Email Addres that already Registered in Amazon.com
+</td>
+
+<td class="hide">
+  
+      
+          @SignUpAmazon. 
+      
+          @InvalidDataSignUp. 
+      
+          @UsingRegisteredEmail. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Sign Up to Amazon Website
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s2">
+  User want to Sign Up to Amazon Using Password that the length less than 6 characters
+</td>
+
+<td class="hide">
+  
+      
+          @SignUpAmazon. 
+      
+          @InvalidDataSignUp. 
+      
+          @UsingLessThan6CharPass. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+  
+  </tbody>
+</table>
+
+        </div>
+
+        <div id="errors" class="col s12 brown lighten-5">
+          <ul class="errorList collapsible popout" data-collapsible="expandable">
+  
+</ul>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer brown lighten-4">
+  <div class="footer-copyright brown lighten-1">
+    <div class="container">
+      Happy Reporting!
+      <a class="white-text text-lighten-4 right" href="https://reportbuilder.rajatthareja.com">Generated by Report Builder</a>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/js/report.builder.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
